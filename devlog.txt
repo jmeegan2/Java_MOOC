@@ -4,3 +4,7 @@ a backend language, kind of sick of the frontend these
 days
 
 * Stopped at reading input part 1
+* started Variables part 1
+* Control 1 to close/open project sidebar
+* done with 1_4 moving onto 1_5 calculating with numbers
+* done with the multiplication formula of part 1_4
