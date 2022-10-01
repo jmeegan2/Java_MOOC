@@ -1,0 +1,6 @@
+10/1
+* Starting this want to learn Java to be better with
+a backend language, kind of sick of the frontend these
+days
+
+* Stopped at reading input part 1
