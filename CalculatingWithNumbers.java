@@ -38,5 +38,34 @@ public class CalculatingWithNumbers {
 //        int secondNum = Integer.valueOf(scanner.nextLine());
 //        int sum = firstNum * secondNum;
 //        System.out.println(firstNum + " * " + secondNum + " = " + sum );
+
+//        System.out.println("Give the first number: ");
+//        int firstNum = Integer.valueOf(scanner.nextLine());
+//        System.out.println("Give the second number: ");
+//        int secondNum = Integer.valueOf(scanner.nextLine());
+//        System.out.println("Give the third number: ");
+//        int thirdNum = Integer.valueOf(scanner.nextLine());
+//        double sumAverage = (firstNum + secondNum + thirdNum) / 3 ;
+//
+//        System.out.println("The average of three numbers: " + sumAverage);
+
+
+        //Simple calculator
+        System.out.println("Give the first number: ");
+        int firstNum = Integer.valueOf(scanner.nextLine());
+        System.out.println("Give the second number: ");
+        int secondNum = Integer.valueOf(scanner.nextLine());
+        int sumAdd = (firstNum + secondNum);
+        int sumSubtract = (firstNum - secondNum);
+        int sumMulti = (firstNum * secondNum);
+        double sumDiv = (firstNum/secondNum);
+        double sumAverage = (firstNum + secondNum) / 2 ;
+        System.out.println(firstNum + " + " + secondNum + " = " + sumAdd);
+        System.out.println(firstNum + " - " + secondNum + " = " + sumSubtract);
+        System.out.println(firstNum + " * " + secondNum + " = " + sumMulti);
+        System.out.println(firstNum + " / " + secondNum + " = " + sumDiv);
+
+
+
     }
 }
