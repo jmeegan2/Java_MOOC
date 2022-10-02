@@ -1,0 +1,1 @@
+This is just a Java course from Helsinki University that was recommended alot on the internet to learn Java. I've used java alot in school but feel like this will better cement everything. 
