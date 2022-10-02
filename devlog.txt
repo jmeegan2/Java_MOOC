@@ -9,3 +9,8 @@ days
 * done with 1_4 moving onto 1_5 calculating with numbers
 * done with the multiplication formula of part 1_4
 * starting part 1_6 conditional statements and conditional operations
+* Part 1 is done
+10/2
+
+* started part 2_2 repeating functionality
+* stopped at numbers of numbers exercise
