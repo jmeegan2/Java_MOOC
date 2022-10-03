@@ -152,19 +152,110 @@ public class RepeatingFunctionality {
 
 
         //Number of numbers
-        // nice implementation, very sleek
-        int amountOfEntries = 0;
+//        // nice implementation, very sleek
+//        int amountOfEntries = 0;
+//
+//        while (true) {
+//            System.out.println("Give a number: ");
+//            int entry = Integer.valueOf(scanner.nextLine());
+//            if (entry != 0) {
+//                amountOfEntries++;
+//                continue;
+//            } else {
+//                break;
+//            }
+//        }
+//        System.out.println("Number of numbers: " + amountOfEntries);
+//    }\
+
+        //Number of negative numbers
+//        int numberOfNegatives = 0;
+////
+////        while (true) {
+////            System.out.println("Give a number: ");
+////            int number = Integer.valueOf(scanner.nextLine());
+////
+////            if (number > 0 ) {
+////                continue;
+////            } else if (number < 0) {
+////                numberOfNegatives++;
+////                continue;
+////            }
+////            System.out.println("Number of negative numbers: " + numberOfNegatives);
+////            break;
+////        }
+
+        //Sum of numbers
+
+//        int sum = 0;
+//
+//        while (true) {
+//            System.out.println("Give a number: ");
+//            int number = Integer.valueOf(scanner.nextLine());
+//
+//            if (number != 0) {
+//                sum = sum + number;
+//                continue;
+//            } else {
+//                System.out.println("Sum of numbers: " + sum);
+//                break;
+//            }
+//        }
+
+        //Number and sum of numbers
+//        int sum = 0;
+//        int numOfNums = 0;
+//
+//        while (true) {
+//            System.out.println("Give a number: ");
+//            int number = Integer.valueOf(scanner.nextLine());
+//
+//            if (number != 0) {
+//                sum = sum + number;
+//                numOfNums++;
+//                continue;
+//            }
+//            System.out.println("Number of numbers: " + numOfNums);
+//            System.out.println("Sum of the numbers: " + sum);
+//            break;
+//        }
+
+        //Average of numbers
+//        double numOfNums = 0;
+//        double sumOfNums = 0;
+//
+//
+//        while (true)  {
+//            System.out.println("Give a number: ");
+//            double number = Double.valueOf(scanner.nextLine());
+//
+//            if (number != 0) {
+//                sumOfNums = number + sumOfNums;
+//                numOfNums++;
+//                continue;
+//            } else {
+//                double average = (sumOfNums / numOfNums);
+//                System.out.println("Average of the numbers: " + average );
+//                break;
+//            }
+//        }
+
+       double count = 0;
+       double sum = 0;
 
         while (true) {
-            System.out.println("Give a number: ");
-            int entry = Integer.valueOf(scanner.nextLine());
-            if (entry != 0) {
-                amountOfEntries++;
-                continue;
-            } else {
+            double number = Double.valueOf(scanner.nextLine());
+            if (number == 0) {
                 break;
+            } else if  (number > 0) {
+                count++;
+                sum += number;
             }
         }
-        System.out.println("Number of numbers: " + amountOfEntries);
+        if (count > 0) {
+            System.out.println("The average is " + sum / count);
+        } else {
+            System.out.println("Cannot calculate the average: ");
+        }
     }
 }

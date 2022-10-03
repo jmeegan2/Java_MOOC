@@ -14,3 +14,8 @@ days
 
 * started part 2_2 repeating functionality
 * stopped at numbers of numbers exercise
+
+10/3
+
+* just started 2_3 more loops that last exercise "Average of positive numbers" was a little
+* trick for me
