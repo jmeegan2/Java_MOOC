@@ -18,4 +18,5 @@ days
 10/3
 
 * just started 2_3 more loops that last exercise "Average of positive numbers" was a little
-* trick for me
+* tricky for me
+* finished 2_3 starting next methods and dividing the program into smaller parts

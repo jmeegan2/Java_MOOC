@@ -91,20 +91,34 @@ public class MoreLoops {
     // Part 1: Reading
         System.out.println("Give numbers: ");
         int sum = 0;
+        int numOfNums = 0;
+        int evens =0;
+        int odds = 0;
+
         while (true) {
             int num = Integer.parseInt(scanner.nextLine());
             if (num != -1) {
                 sum += num;
+                numOfNums++;
+                if( num % 2 == 0) {
+                    evens++;
+                } else {
+                    odds++;
+                }
             }
             else {
                 System.out.println("Thx bye!");
                 System.out.println("Sum: "+ sum);
+                System.out.println("Numbers: " + numOfNums );
+                System.out.println("Average: "+ ((double) sum) /numOfNums  );
+                System.out.println("Even: " + evens);
+                System.out.println("Odd: " + odds);
                 break;
             }
         }
 
-
-
+    // Lesson learned for this program is that its easier to program small parts at a time
+    // Also neat casting trick from int to double ((double) sum) /numOfNums
 
      }
     }
