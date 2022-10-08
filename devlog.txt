@@ -20,3 +20,6 @@ days
 * just started 2_3 more loops that last exercise "Average of positive numbers" was a little
 * tricky for me
 * finished 2_3 starting next methods and dividing the program into smaller parts
+
+10/7
+*stuck on 2_4 from parameter to one
