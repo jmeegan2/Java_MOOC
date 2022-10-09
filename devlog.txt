@@ -23,3 +23,16 @@ days
 
 10/7
 *stuck on 2_4 from parameter to one
+
+10/8
+* got it
+    public static void printFromNumberOne(int num) {
+
+                int initialNum = num;
+                 for(int i = 0; i < initialNum; i++){
+                     System.out.println(num);
+                     num--;
+                 }
+
+             }
+
