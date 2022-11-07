@@ -35,4 +35,7 @@ days
                  }
 
              }
+* close to finishing 2_4 on Averaging exercise
 
+10/9
+Stopped at "Call stack and returning a value from am method"

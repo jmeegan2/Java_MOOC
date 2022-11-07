@@ -1,10 +1,12 @@
-package Part2;
+package Part_2;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class SmallerParts {
     public static void main(String[] args) {
+
+//        double result = average(4, 3, 6, 1);
+//        System.out.println("Average: " + result);
 
 //        int answer =  greatest(2, 7, 3);
 //        System.out.println("Greatest: " + answer);
@@ -65,6 +67,8 @@ public class SmallerParts {
 //        greet();
 //        greet();
 
+        System.out.println(numberUno() +" "+ word());
+
     }
 //Method for division
 //    public static void division(int numerator, int denominator) {
@@ -84,7 +88,13 @@ public class SmallerParts {
 //    }
 
     //Averaging
-
+    public static double average(int number1, int number2, int number3, int number4) {
+      double average = sum(number1, number2, number3, number4) / 4.0;
+      return average;
+    }
+    public static int sum(int number1, int number2, int number3, int number4) {
+        return (number1+number2+number3+number4) ;
+    }
 
     //greatest method, just used if else statements could have ternary operator but this is easier to read
     public static int greatest(int number1, int number2, int number3){
@@ -132,6 +142,14 @@ public class SmallerParts {
 //    }
 
 
+    public static int numberUno() {
+        return 0;
+    }
+
+    public static String word() {
+        return "Hello";
+    }
+
 
 }
 
@@ -178,6 +196,7 @@ public class SmallerParts {
 //        // own methods
 //        public static void greet() {
 //            System.out.println("Greetings from method world");
+
 
 
 

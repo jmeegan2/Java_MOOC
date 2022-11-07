@@ -1,7 +1,6 @@
-package Part2;
+package Part_2;
 
 import java.util.Scanner;
-import java.util.SortedMap;
 
 public class MoreLoops {
     public static void main(String[] args) {
