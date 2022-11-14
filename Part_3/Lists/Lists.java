@@ -1,4 +1,4 @@
-package Part_3;
+package Part_3.Lists;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
@@ -100,16 +100,57 @@ public class Lists {
 //        System.out.println(teachers.get(2));
 //        System.out.println(teachers.get(3));
 
-        ArrayList<String> list = new ArrayList<>();
-        System.out.println("Number of values on the list: " + list.size());
+//        ArrayList<String> list = new ArrayList<>();
+//        System.out.println("Number of values on the list: " + list.size());
+//
+//        list.add("First");
+//        System.out.println("Number of values on the list: " + list.size());
+//
+//        int values = list.size();
+//
+//        list.add("Second");
+//        System.out.println("Number of values on the list: " + values);
 
-        list.add("First");
-        System.out.println("Number of values on the list: " + list.size());
+        ArrayList<String> teachers = new ArrayList<>();
 
-        int values = list.size();
+        teachers.add("Simon");
+        teachers.add("Samuel");
+        teachers.add("Ann");
+        teachers.add("Anna");
 
-        list.add("Second");
-        System.out.println("Number of values on the list: " + values);
+        int index = 0;
+
+//        if (index < teachers.size()) {
+//            System.out.println(teachers.get(index)); //index = 0
+//            index = index + 1; // index = 1
+//        }
+//
+//        if (index < teachers.size()) {
+//            System.out.println(teachers.get(index)); // index = 1
+//            index = index + 1; // index = 2
+//        }
+//
+//        if (index < teachers.size()) {
+//            System.out.println(teachers.get(index)); // index = 2
+//            index = index + 1; // index = 3
+//        }
+//
+//        if (index < teachers.size()) {
+//            System.out.println(teachers.get(index)); // index = 3
+//            index = index + 1; // index = 4
+//        }
+//
+//        if (index < teachers.size()) {
+//            // this will not be executed since index = 4 and teachers.size() = 4
+//            System.out.println(teachers.get(index));
+//            index = index + 1;
+//        }
+
+        //shorter version of above code
+        while (index < teachers.size()) {
+            System.out.println(teachers.get(index));
+            index = index + 1;
+        }
     }
 
 }
