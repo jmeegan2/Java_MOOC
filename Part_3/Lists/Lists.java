@@ -13,6 +13,19 @@ public class Lists {
     // in the list
 
     public static void main(String[] args) {
+        //iterating over list with for each loop
+        ArrayList<String> teachers = new ArrayList<>();
+
+        teachers.add("Simon");
+        teachers.add("Samuel");
+        teachers.add("Ann");
+        teachers.add("Anna");
+
+        //the aforementioned for each loop
+        for (String teacher: teachers) {
+            System.out.println(teacher);
+        }
+
         // create a list
 
 //        ArrayList<String> list = new ArrayList<>();
@@ -111,14 +124,14 @@ public class Lists {
 //        list.add("Second");
 //        System.out.println("Number of values on the list: " + values);
 
-        ArrayList<String> teachers = new ArrayList<>();
-
-        teachers.add("Simon");
-        teachers.add("Samuel");
-        teachers.add("Ann");
-        teachers.add("Anna");
-
-        int index = 0;
+//        ArrayList<String> teachers = new ArrayList<>();
+//
+//        teachers.add("Simon");
+//        teachers.add("Samuel");
+//        teachers.add("Ann");
+//        teachers.add("Anna");
+//
+//        int index = 0;
 
 //        if (index < teachers.size()) {
 //            System.out.println(teachers.get(index)); //index = 0
@@ -147,10 +160,10 @@ public class Lists {
 //        }
 
         //shorter version of above code
-        while (index < teachers.size()) {
-            System.out.println(teachers.get(index));
-            index = index + 1;
-        }
+//        while (index < teachers.size()) {
+//            System.out.println(teachers.get(index));
+//            index = index + 1;
+//        }
     }
 
 }
