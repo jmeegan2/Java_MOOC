@@ -39,3 +39,6 @@ days
 
 10/9
 Stopped at "Call stack and returning a value from am method"
+
+1/2
+Trying to get back to doing java MOOC

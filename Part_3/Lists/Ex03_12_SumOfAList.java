@@ -16,6 +16,6 @@ public class Ex03_12_SumOfAList {
             list.add(num);
             sum = sum + num;
         }
-
+        System.out.println("Sum: "+sum);
     }
 }
