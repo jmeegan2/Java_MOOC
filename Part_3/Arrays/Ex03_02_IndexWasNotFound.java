@@ -12,8 +12,22 @@ public class Ex03_02_IndexWasNotFound {
         numbers[2] = 12;
         numbers[3] = 7;
 
-        System.out.println("Search for? ");
+        System.out.print("Search for? ");
         int entry = Integer.valueOf(scanner.next());
+
+        int index = 0;
+        boolean isFound = false;
+        while(index < numbers.length) {
+            if(entry == numbers[index]){
+                System.out.println(entry + " is at index "+ index);
+                isFound = true;
+            } index++;
+        }
+        if(!isFound) {
+            System.out.println(entry + " was not found.");
+        }
+
+
 
 
     }
