@@ -1,4 +1,4 @@
-package Part_3.Using_Strings;
+package Part_3.UsingStrings;
 
 import java.util.Scanner;
 
