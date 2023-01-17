@@ -42,3 +42,6 @@ Stopped at "Call stack and returning a value from am method"
 
 1/2
 Trying to get back to doing java MOOC
+
+1/17
+Left off "A string representation of an object and the toString-method" part4 intro

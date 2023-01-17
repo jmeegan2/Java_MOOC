@@ -1,4 +1,4 @@
-package Part_4.IntroTo_OOP;
+package Part_4.IntroTo_OOP.Part04_notes;
 
 public class Person {
     // private means the variables are "hidden" inside the object, this is known
@@ -23,5 +23,23 @@ public class Person {
         System.out.println(this.name + " aged one year");
     }
 
+    public int returnAge() {
+        return age;
+    }
 
+    public boolean isOfLegalAge() {
+//        if(age >= 18) {
+//            return true;
+//        }
+//        return false;
+        return this.age >= 18;
+    }
+
+    public String getName() {
+        return this.name;
+    }
+
+    public String toString() {
+        return this.name + ", age" + this.age + " years";
+    }
 }
